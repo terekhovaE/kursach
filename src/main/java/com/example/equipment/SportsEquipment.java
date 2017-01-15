@@ -1,10 +1,15 @@
-package equipment;
+package com.example.equipment;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope(value = "singleton")
 public abstract class SportsEquipment {
 
 
   public   double weight;      //масса
-    String manufacturer;    //производитель
+  public   String manufacturer;    //производитель
 
     public SportsEquipment(double weight, String manufacturer) {
         this.weight = weight;
@@ -17,6 +22,8 @@ public abstract class SportsEquipment {
         this.manufacturer = sport.manufacturer;;
         return  this;
     }
+
+
 
 }
 

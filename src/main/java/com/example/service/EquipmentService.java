@@ -1,6 +1,6 @@
-package service;
+package com.example.service;
 
-import equipment.SportsEquipment;
+import com.example.equipment.SportsEquipment;
 
 import java.util.List;
 

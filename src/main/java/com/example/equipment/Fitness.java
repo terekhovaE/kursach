@@ -1,9 +1,9 @@
-package equipment;
+package com.example.equipment;
 
 public class Fitness extends SportsEquipment  {
 
 
-    String material;    //материал
+    public String material;    //материал
 
     public Fitness(String material, double weight, String manufacturer) {
 

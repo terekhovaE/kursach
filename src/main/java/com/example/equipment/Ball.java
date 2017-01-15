@@ -1,9 +1,9 @@
-package equipment;
+package com.example.equipment;
 
 public class Ball extends SportsEquipment {
 
-    double size;    //размер
-    String material;    //материал
+    public double size;    //размер
+    public String material;    //материал
 
     public Ball(double size, String material, double weight, String manufacturer) {
 

@@ -1,13 +1,16 @@
-package service;
+package com.example.service;
 
-import equipment.SportsEquipment;
-import repository.EquipmentRepository;
+import com.example.equipment.SportsEquipment;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.repository.EquipmentRepository;
 
 import java.util.List;
 
-
+@Service
 public class EquipmentServiceImpl implements EquipmentService{
 
+    @Autowired
     EquipmentRepository repository;
 
     public SportsEquipment getOne(Integer id) {

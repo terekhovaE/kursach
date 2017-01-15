@@ -1,11 +1,11 @@
-package equipment;
+package com.example.equipment;
 
 //ракетка
 public class Bat extends SportsEquipment{
 
 
-    double sizeRim; //размер обода
-    double length;    //длина
+    public  double sizeRim; //размер обода
+    public double length;    //длина
 
     public Bat (double sizeRim, double length, double weight, String manufacturer) {
 

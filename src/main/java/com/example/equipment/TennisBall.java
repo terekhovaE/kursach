@@ -1,8 +1,8 @@
-package equipment;
+package com.example.equipment;
 
 public class TennisBall extends Ball {
 
-    double levelElasticity;    //уровень упругости
+    public double levelElasticity;    //уровень упругости
 
     public  TennisBall(double levelElasticity, double weight, String manufacturer, double size, String material) {
 

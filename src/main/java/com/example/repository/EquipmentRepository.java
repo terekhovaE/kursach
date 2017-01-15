@@ -1,13 +1,11 @@
-package repository;
+package com.example.repository;
 
 
-import equipment.SportsEquipment;
-import equipment.Weight;
+import com.example.equipment.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 @Repository
 public class EquipmentRepository {
@@ -16,7 +14,14 @@ public class EquipmentRepository {
 
     EquipmentRepository() {
 
+        sportsEquipments.add(new Ball(20, "резина", 50, "POI"));
+        sportsEquipments.add(new Bat(5, 25, 85, "Ракетка"));
+        sportsEquipments.add(new Fitness("ткань", 40, "QWE"));
+        sportsEquipments.add(new Javelin(3, 15, 58, "FGH"));
+        sportsEquipments.add(new TennisBall(50, 15, "резина", 9, "Теннис"));
+        sportsEquipments.add(new VolleyBall("GHJ", 8, "резина", 20, "TYU"));
         sportsEquipments.add(new Weight(5, "металл", 10, "ASD"));
+
     }
 
     public List<SportsEquipment> getAll() {

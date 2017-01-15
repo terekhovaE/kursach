@@ -1,8 +1,8 @@
-package equipment;
+package com.example.equipment;
 
 public class VolleyBall extends Ball {
 
-    String pump;    //тип насоса
+    public String pump;    //тип насоса
 
     public VolleyBall(String pump, double weight, String manufacturer, double size, String material) {
 

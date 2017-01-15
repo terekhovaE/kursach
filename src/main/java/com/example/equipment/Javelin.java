@@ -1,10 +1,10 @@
-package equipment;
+package com.example.equipment;
 
 //Метательное копье
 public class Javelin extends SportsEquipment {
 
-    double angleTip;    //угол острия
-    double length;    //длина
+    public double angleTip;    //угол острия
+    public double length;    //длина
 
 
     public Javelin (double angleTip,  double length, double weight, String manufacturer) {

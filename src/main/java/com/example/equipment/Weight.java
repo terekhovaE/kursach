@@ -1,11 +1,11 @@
-package equipment;
+package com.example.equipment;
 
 
 
 public class Weight extends Fitness {
 
 
-    double levelConvenience;    //степень удобства
+    public double levelConvenience;    //степень удобства
 
     public Weight(double levelConvenience, String material, double weight, String manufacturer) {
 
